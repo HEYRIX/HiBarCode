@@ -1,20 +1,31 @@
 //
 //  HTAppDelegate.m
-//  HiBarCode
+//  HiZBar
 //
 //  Created by Huang Liang on 2014-5-30.
 //  Copyright (c) 2014年 Huang Liang. All rights reserved.
 //
 
 #import "HTAppDelegate.h"
+#import "HTDemoController.h"
+
+@interface HTAppDelegate()
+{
+    
+}
+@end
 
 @implementation HTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    HTDemoController *rootController = [[HTDemoController alloc] init];
+    self.window.rootViewController = rootController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

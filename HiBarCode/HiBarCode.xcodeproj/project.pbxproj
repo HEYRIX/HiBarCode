@@ -24,6 +24,7 @@
 		C6427FB519387B6B00048336 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = C6427FA119387B6B00048336 /* zbar-help.html */; };
 		C6427FB619387B6B00048336 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = C6427FA219387B6B00048336 /* zbar-helpicons.png */; };
 		C6427FB719387B6B00048336 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = C6427FA319387B6B00048336 /* zbar-samples.png */; };
+		C6427FBB19387D1400048336 /* HTDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6427FBA19387D1400048336 /* HTDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		C6427FB019387B6B00048336 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
 		C6427FB119387B6B00048336 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
 		C6427FB219387B6B00048336 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		C6427FB919387D1400048336 /* HTDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDemoController.h; sourceTree = "<group>"; };
+		C6427FBA19387D1400048336 /* HTDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDemoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,7 @@
 		C6427F421938714700048336 /* HiBarCode */ = {
 			isa = PBXGroup;
 			children = (
+				C6427FB819387D1400048336 /* Demo */,
 				C6427F9819387B6B00048336 /* ZBarSDK */,
 				C6427F4B1938714700048336 /* HTAppDelegate.h */,
 				C6427F4C1938714700048336 /* HTAppDelegate.m */,
@@ -214,6 +218,15 @@
 				C6427FA319387B6B00048336 /* zbar-samples.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6427FB819387D1400048336 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C6427FB919387D1400048336 /* HTDemoController.h */,
+				C6427FBA19387D1400048336 /* HTDemoController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +331,7 @@
 			files = (
 				C6427F4D1938714700048336 /* HTAppDelegate.m in Sources */,
 				C6427F491938714700048336 /* main.m in Sources */,
+				C6427FBB19387D1400048336 /* HTDemoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
