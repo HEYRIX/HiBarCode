@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6427F3D1938714700048336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6427F3C1938714700048336 /* Foundation.framework */; };
+		C6427F3F1938714700048336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6427F3E1938714700048336 /* CoreGraphics.framework */; };
+		C6427F411938714700048336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6427F401938714700048336 /* UIKit.framework */; };
+		C6427F471938714700048336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6427F451938714700048336 /* InfoPlist.strings */; };
+		C6427F491938714700048336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6427F481938714700048336 /* main.m */; };
+		C6427F4D1938714700048336 /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6427F4C1938714700048336 /* HTAppDelegate.m */; };
+		C6427F4F1938714700048336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6427F4E1938714700048336 /* Images.xcassets */; };
+		C6427F561938714700048336 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6427F551938714700048336 /* XCTest.framework */; };
+		C6427F571938714700048336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6427F3C1938714700048336 /* Foundation.framework */; };
+		C6427F581938714700048336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6427F401938714700048336 /* UIKit.framework */; };
+		C6427F601938714700048336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6427F5E1938714700048336 /* InfoPlist.strings */; };
+		C6427F621938714700048336 /* HiBarCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6427F611938714700048336 /* HiBarCodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6427F591938714700048336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6427F311938714700048336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6427F381938714700048336;
+			remoteInfo = HiBarCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6427F391938714700048336 /* HiBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6427F3C1938714700048336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6427F3E1938714700048336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6427F401938714700048336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6427F441938714700048336 /* HiBarCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiBarCode-Info.plist"; sourceTree = "<group>"; };
+		C6427F461938714700048336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6427F481938714700048336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6427F4A1938714700048336 /* HiBarCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiBarCode-Prefix.pch"; sourceTree = "<group>"; };
+		C6427F4B1938714700048336 /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		C6427F4C1938714700048336 /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		C6427F4E1938714700048336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6427F541938714700048336 /* HiBarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiBarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6427F551938714700048336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6427F5D1938714700048336 /* HiBarCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiBarCodeTests-Info.plist"; sourceTree = "<group>"; };
+		C6427F5F1938714700048336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6427F611938714700048336 /* HiBarCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiBarCodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6427F361938714700048336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6427F3F1938714700048336 /* CoreGraphics.framework in Frameworks */,
+				C6427F411938714700048336 /* UIKit.framework in Frameworks */,
+				C6427F3D1938714700048336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6427F511938714700048336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6427F561938714700048336 /* XCTest.framework in Frameworks */,
+				C6427F581938714700048336 /* UIKit.framework in Frameworks */,
+				C6427F571938714700048336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6427F301938714700048336 = {
+			isa = PBXGroup;
+			children = (
+				C6427F421938714700048336 /* HiBarCode */,
+				C6427F5B1938714700048336 /* HiBarCodeTests */,
+				C6427F3B1938714700048336 /* Frameworks */,
+				C6427F3A1938714700048336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6427F3A1938714700048336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6427F391938714700048336 /* HiBarCode.app */,
+				C6427F541938714700048336 /* HiBarCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6427F3B1938714700048336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6427F3C1938714700048336 /* Foundation.framework */,
+				C6427F3E1938714700048336 /* CoreGraphics.framework */,
+				C6427F401938714700048336 /* UIKit.framework */,
+				C6427F551938714700048336 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6427F421938714700048336 /* HiBarCode */ = {
+			isa = PBXGroup;
+			children = (
+				C6427F4B1938714700048336 /* HTAppDelegate.h */,
+				C6427F4C1938714700048336 /* HTAppDelegate.m */,
+				C6427F4E1938714700048336 /* Images.xcassets */,
+				C6427F431938714700048336 /* Supporting Files */,
+			);
+			path = HiBarCode;
+			sourceTree = "<group>";
+		};
+		C6427F431938714700048336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6427F441938714700048336 /* HiBarCode-Info.plist */,
+				C6427F451938714700048336 /* InfoPlist.strings */,
+				C6427F481938714700048336 /* main.m */,
+				C6427F4A1938714700048336 /* HiBarCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6427F5B1938714700048336 /* HiBarCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6427F611938714700048336 /* HiBarCodeTests.m */,
+				C6427F5C1938714700048336 /* Supporting Files */,
+			);
+			path = HiBarCodeTests;
+			sourceTree = "<group>";
+		};
+		C6427F5C1938714700048336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6427F5D1938714700048336 /* HiBarCodeTests-Info.plist */,
+				C6427F5E1938714700048336 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6427F381938714700048336 /* HiBarCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6427F651938714700048336 /* Build configuration list for PBXNativeTarget "HiBarCode" */;
+			buildPhases = (
+				C6427F351938714700048336 /* Sources */,
+				C6427F361938714700048336 /* Frameworks */,
+				C6427F371938714700048336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiBarCode;
+			productName = HiBarCode;
+			productReference = C6427F391938714700048336 /* HiBarCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6427F531938714700048336 /* HiBarCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6427F681938714700048336 /* Build configuration list for PBXNativeTarget "HiBarCodeTests" */;
+			buildPhases = (
+				C6427F501938714700048336 /* Sources */,
+				C6427F511938714700048336 /* Frameworks */,
+				C6427F521938714700048336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6427F5A1938714700048336 /* PBXTargetDependency */,
+			);
+			name = HiBarCodeTests;
+			productName = HiBarCodeTests;
+			productReference = C6427F541938714700048336 /* HiBarCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6427F311938714700048336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Huang Liang";
+				TargetAttributes = {
+					C6427F531938714700048336 = {
+						TestTargetID = C6427F381938714700048336;
+					};
+				};
+			};
+			buildConfigurationList = C6427F341938714700048336 /* Build configuration list for PBXProject "HiBarCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6427F301938714700048336;
+			productRefGroup = C6427F3A1938714700048336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6427F381938714700048336 /* HiBarCode */,
+				C6427F531938714700048336 /* HiBarCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6427F371938714700048336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6427F471938714700048336 /* InfoPlist.strings in Resources */,
+				C6427F4F1938714700048336 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6427F521938714700048336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6427F601938714700048336 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6427F351938714700048336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6427F4D1938714700048336 /* HTAppDelegate.m in Sources */,
+				C6427F491938714700048336 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6427F501938714700048336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6427F621938714700048336 /* HiBarCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6427F5A1938714700048336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6427F381938714700048336 /* HiBarCode */;
+			targetProxy = C6427F591938714700048336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6427F451938714700048336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6427F461938714700048336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6427F5E1938714700048336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6427F5F1938714700048336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6427F631938714700048336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6427F641938714700048336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6427F661938714700048336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Jiang (8HBZDB263N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiBarCode/HiBarCode-Prefix.pch";
+				INFOPLIST_FILE = "HiBarCode/HiBarCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6427F671938714700048336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Jiang (8HBZDB263N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiBarCode/HiBarCode-Prefix.pch";
+				INFOPLIST_FILE = "HiBarCode/HiBarCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6427F691938714700048336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiBarCode.app/HiBarCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiBarCode/HiBarCode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HiBarCodeTests/HiBarCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6427F6A1938714700048336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiBarCode.app/HiBarCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiBarCode/HiBarCode-Prefix.pch";
+				INFOPLIST_FILE = "HiBarCodeTests/HiBarCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6427F341938714700048336 /* Build configuration list for PBXProject "HiBarCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6427F631938714700048336 /* Debug */,
+				C6427F641938714700048336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6427F651938714700048336 /* Build configuration list for PBXNativeTarget "HiBarCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6427F661938714700048336 /* Debug */,
+				C6427F671938714700048336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6427F681938714700048336 /* Build configuration list for PBXNativeTarget "HiBarCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6427F691938714700048336 /* Debug */,
+				C6427F6A1938714700048336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6427F311938714700048336 /* Project object */;
+}
