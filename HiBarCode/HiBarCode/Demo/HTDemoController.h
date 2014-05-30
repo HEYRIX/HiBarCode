@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ZBarSDK.h"
 
-@interface HTDemoController : UIViewController//<ZBarReaderDelegate>
+@interface HTDemoController : UIViewController<ZBarReaderDelegate>
 
 @end

@@ -8,6 +8,7 @@
 
 #import "HTDemoController.h"
 
+
 @interface HTDemoController ()
 {
     UIImageView *_resultImage;
@@ -67,18 +68,18 @@
 {
     NSLog(@"onZBarButtonClicked");
     
-//    // ADD: present a barcode reader that scans from the camera feed
-//    ZBarReaderViewController *reader = [ZBarReaderViewController new];
-//    reader.readerDelegate = self;
-//    
-//    ZBarImageScanner *scanner = reader.scanner;
-//    // TODO: (optional) additional reader configuration here
-//    
-//    // EXAMPLE: disable rarely used I2/5 to improve performance
-//    [scanner setSymbology: ZBAR_I25 config: ZBAR_CFG_ENABLE to: 0];
-//    
-//    // present and release the controller
-////    [self presentModalViewController:reader animated: YES];
+    // ADD: present a barcode reader that scans from the camera feed
+    ZBarReaderViewController *reader = [ZBarReaderViewController new];
+    reader.readerDelegate = self;
+    
+    ZBarImageScanner *scanner = reader.scanner;
+    // TODO: (optional) additional reader configuration here
+    
+    // EXAMPLE: disable rarely used I2/5 to improve performance
+    [scanner setSymbology: ZBAR_I25 config: ZBAR_CFG_ENABLE to: 0];
+    
+    // present and release the controller
+//    [self presentModalViewController:reader animated: YES];
 }
 
 #pragma mark 
